@@ -81,7 +81,7 @@ aside{
 
 footer{ 
     grid-area: footer;
-    
+    text-align: right
 }
 img {
     border-radius: 50%;
