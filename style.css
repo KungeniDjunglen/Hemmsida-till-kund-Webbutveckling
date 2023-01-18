@@ -35,7 +35,32 @@ main{
     padding: 5%;
 }
 
+
+/*Klasser för att gridda de olika sidorna*/
 .SongBox{
     display: grid;
     grid-template-columns: 1fr 1fr;
+}
+.Ikoner{
+    display: grid;
+    grid-template-rows: 210px 210px 210px 210px;
+    
+
+}
+
+
+/*Styling för ikoner sidan*/
+main.Ikoner > section{
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    padding-bottom: 50px;
+}
+main.Ikoner > section > img{
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    object-fit: cover;
+}
+main.Ikoner > section p, main.Ikoner > section h2{
+    margin-left: 20px;
 }
