@@ -1,5 +1,5 @@
 body{ /*body*/
-    background-image: linear-gradient(black, red, yellow);
+    background-image: linear-gradient(black, red, orange , yellow 120%);
     background-repeat: no-repeat;
     background-size: auto;
     margin: 0;
@@ -30,7 +30,12 @@ ul >li{
 }
 
 main{
-    margin-left: 25vw;
-    margin-right: 25vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
     padding: 5%;
+}
+
+.SongBox{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
