@@ -1,5 +1,5 @@
 body{ /*body*/
-    background-image: radial-gradient(rgb(255, 209, 5) 20%, black 120%);
+    background-image: linear-gradient(black, red, yellow);
     background-repeat: no-repeat;
     background-size: auto;
     margin: 0;
@@ -8,11 +8,9 @@ body{ /*body*/
 }
 
 nav {
-    background-color: rgb(17, 17, 17);
     font-size: 30px;
     text-align: center;
     padding: 20px;
-    border-bottom: 1px white solid;
 }
 nav ul{
     display: grid;
@@ -21,13 +19,9 @@ nav ul{
     margin-block-end: 0;
     list-style: none;
 }
-header{
-    background-color: rgb(17, 17, 17);
-    padding: 20px;
-}
+
 main{
-    margin-left: 20vw;
-    margin-right: 20vw;
+    margin-left: 25vw;
+    margin-right: 25vw;
     padding: 5%;
-    background-color: gray;
 }
