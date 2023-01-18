@@ -1,7 +1,7 @@
 body{ /*body*/
     background-image: radial-gradient(rgb(255, 209, 5) 20%, black 120%);
     background-repeat: no-repeat;
-    height: 140vh;
+    background-size: auto;
     margin: 0;
     color: white;
     margin-left: 0;
@@ -27,85 +27,7 @@ header{
 }
 main{
     margin-left: 20vw;
+    margin-right: 20vw;
+    padding: 5%;
+    background-color: gray;
 }
-
-
-
-nav {
-    background-color: black;
-    margin-top: 0;
-}
-
-body{
-    display: grid  ;
-    grid-template-columns: 1fr 1fr ;
-    grid-template-rows: 80px 50px auto 50px;
-    grid-template-areas: 
-    "header header"
-    "nav nav"
-    "main1 aside"
-    "footer footer";
-}
-
-header{
-    grid-area: header;
-    text-align: center;
-}
-
-nav{
-    grid-area: nav;
-    background-color:
-}
-
-nav ul{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    margin: 0;
-    padding: 0;
-
-}
-
-nav li {
-    list-style-type: none;
-    text-align: center;
-    font-size: 1.5em;
-}
-
-nav a {
-    text-decoration: none;
-    font-family: 
-
-}
-
-main{
-    background-color: 
-}
-
-section{
-    grid-area: main1;
-
-}
-
-section:last-of-type{
-    grid-area: main2;
-
-}
-
-aside{
-    grid-area: aside;
-}
-
-
-footer{ 
-    grid-area: footer;
-    text-align: right
-}
-img {
-    border-radius: 50%;
-    width: 20%;
-}
-
-
- 
-
-</body>
