@@ -1,18 +1,18 @@
-body{ /*body*/
+
+/*Universal styling och gridning*/
+body{
     background-image: linear-gradient(black, red, orange , yellow 120%);
     background-repeat: no-repeat;
     background-size: auto;
-    margin: 0;
-    color: white;
-    margin-left: 0;
-    font-family: Impact;
+    margin: 0%;
+    color: rgb(206, 206, 206);
+    margin-left: -40px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-
 nav {
     font-size: 30px;
     text-align: center;
-    padding: 20px;
-    margin-right: 60vw;
+    margin-left: 0;
 
 }
 nav ul{
@@ -24,8 +24,6 @@ nav ul{
 }
 ul >li{
     background-color: white;
-    border-radius: 20px;
-    margin-right: 60px;
     padding: 5px;
 }
 
@@ -33,6 +31,14 @@ main{
     margin-left: 5vw;
     margin-right: 5vw;
     padding: 5%;
+}
+header{
+    text-align: center;
+    font-size: larger;
+    background-color: white;
+    margin-bottom: 0;
+    padding: 5px;
+    color: black;
 }
 
 
@@ -47,6 +53,15 @@ main{
     grid-template-columns: 1fr 1fr;
 
 }
+.SongsPage{
+    display: grid;
+    grid-template-rows: 250px 250px 250px 250px ;
+    margin-left: 15vw;
+    margin-right: 15vw;
+}
+
+
+
 /*Styling för ikoner sidan*/
 main.Ikoner > section{
     display: grid;
@@ -65,3 +80,30 @@ main.Ikoner > section p, main.Ikoner > section h2{
 }
 
 
+
+
+
+/*Styling förr songs sidan*/
+body > h1{
+    text-align: center;
+}
+main.SongsPage > section > img{
+    height: 200px;
+    width: 200px;
+    
+}
+main.SongsPage > section{
+    display: grid;
+    grid-template-columns: 220px auto;
+    grid-template-rows: auto auto;
+}
+main.SongsPage > section:hover .dropdownContent{
+    display: grid;
+}
+.dropdownContent{
+    display: none;
+    border: 2px white solid;
+    background-color: black;
+    z-index: 2;
+    grid-column: span 2;
+}
