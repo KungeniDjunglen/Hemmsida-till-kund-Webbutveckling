@@ -44,11 +44,9 @@ main{
 .Ikoner{
     display: grid;
     grid-template-rows: 210px 210px 210px 210px;
-    
+    grid-template-columns: 1fr 1fr;
 
 }
-
-
 /*Styling för ikoner sidan*/
 main.Ikoner > section{
     display: grid;
@@ -61,6 +59,9 @@ main.Ikoner > section > img{
     border-radius: 100px;
     object-fit: cover;
 }
+
 main.Ikoner > section p, main.Ikoner > section h2{
     margin-left: 20px;
 }
+
+
